@@ -2,27 +2,45 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Dicee Game</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Jost:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="./imagens/favicon.ico">
+    <title>Dice Game</title>
   </head>
+
   <body>
+    <main>
+      <h1>Dice Game</h1>
+      <div class="container">
 
-    <div onclick="jogar()" class="container">
-      <h1>Clique para jogar</h1>
+        <div class="box">
+          <div class="dice">
+            <span>Player 1</span>
+            <img src="./imagens/dice1.png">
+          </div>
+        </div>
 
-      <div class="dice">
-        <p>Jogador 1</p>
-        <img class="img1" src="./imagens/dice6.png">
+        <div class="box">
+          <div class="dice">
+            <span>Player 2</span>
+            <img src="./imagens/dice1.png">
+          </div>
+        </div>
+
       </div>
 
-      <div class="dice">
-        <p>Jogador 2</p>
-        <img class="img2" src="./imagens/dice6.png">
-      </div>
+      <div class="result">
+        <div class="answer">
+          <span>Winner: </span>
+        </div>
 
-    </div>
+        <button onclick="jogar()">Roll The Dice</button>
+      </div>
+    </main>
+
+    <footer>
+        <span>By Talyslan, 2023</span>
+    </footer>
 
   <script src="script.js"></script>
   </body>
