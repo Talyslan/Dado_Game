@@ -1,0 +1,81 @@
+main span {
+    font-size: 1.5rem;
+    color: #734ebd;
+}
+
+img {
+    width: 70%;
+}
+
+h1 {
+    font-size: 4rem;
+    color: var(--blue);
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    border: 4px solid var(--borda);
+    border-radius: 5px;
+    padding: 1.5em;
+    width: 40%;
+    max-width: 150px;
+}
+
+.dice {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.result {
+    background-color: rgb(32, 32, 32);
+    width: 85%;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.result button {
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-radius: 3px;
+    background: var(--backBtn);
+    color: rgb(250, 250, 250);
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    transition: 0.3s ease;
+}
+
+.result button:hover {
+    background: var(--backBtn-hv);
+    cursor: pointer;
+    transform: scale(0.98);
+    box-shadow: 5px 5px 10px var(--boxShadowBtn);
+}
+
+.result .answer {
+    border: 4px solid var(--borda);
+    padding: 10px;
+}
+
+
+.winner {
+    border: 4px solid var(--winner);
+}
+
+.draw {
+    border: 4px solid var(--draw);
+}

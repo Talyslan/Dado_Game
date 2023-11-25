@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Jost:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./imagens/favicon.ico">
     <title>Dice Game</title>
   </head>
@@ -14,16 +18,22 @@
       <div class="container">
 
         <div class="box">
+          <span>
+            Points: <span id="points1">0</span>
+          </span>
           <div class="dice">
             <span>Player 1</span>
-            <img src="./imagens/dice1.png">
+            <img src="./imagens/dado/dice1.png">
           </div>
         </div>
 
         <div class="box">
+          <span>
+            Points: <span id="points2">0</span>
+          </span>
           <div class="dice">
             <span>Player 2</span>
-            <img src="./imagens/dice1.png">
+            <img src="./imagens/dado/dice1.png">
           </div>
         </div>
 
@@ -31,15 +41,23 @@
 
       <div class="result">
         <div class="answer">
-          <span>Winner: </span>
+          <span id="putAnswer">Click on Button to Play </span>
         </div>
 
-        <button onclick="jogar()">Roll The Dice</button>
+        <button id="rollDices">Roll The Dice</button>
+        <button id="reset">Reset Game</button>
       </div>
     </main>
 
     <footer>
-        <span>By Talyslan, 2023</span>
+      <div class="social-midias">
+        <a href="https://github.com/Talyslan" target="_blank">
+          <img src="imagens/github.png" alt="Icon do GitHub">
+        </a>
+        <a href="mailto:talyslancpc@gmail.com" target="_blank">
+          <img src="imagens/gmail.png" alt="Icon Gmail">
+        </a>
+      </div>
     </footer>
 
   <script src="script.js"></script>
