@@ -4,7 +4,7 @@ main span {
 }
 
 img {
-    width: 70%;
+    width: 100%;
 }
 
 h1 {
@@ -15,17 +15,18 @@ h1 {
 .container {
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
+    width: 100%;
 }
 
 .box {
     border: 4px solid var(--borda);
     border-radius: 5px;
     padding: 1.5em;
-    width: 40%;
-    max-width: 150px;
+    width: 100%;
+    max-width: 180px;
 }
 
 .dice {
@@ -39,7 +40,7 @@ h1 {
 
 .result {
     background-color: rgb(32, 32, 32);
-    width: 85%;
+    width: 100%;
     padding: 30px;
     border-radius: 5px;
     display: flex;
@@ -49,7 +50,7 @@ h1 {
 
 .result button {
     width: 100%;
-    height: 3rem;
+    height: 2.3rem;
     border: none;
     border-radius: 3px;
     background: var(--backBtn);
