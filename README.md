@@ -1,8 +1,7 @@
 <h1 align="center"> Dice Game 🎲</h1>
 
-<img src="https://github.com/Talyslan/Dicee-Game/assets/78499700/8a1498be-e308-4be1-85c1-4c84efe8a1f7" alt="Layout no Computador" />
-<!-- <img src="https://github.com/Talyslan/Gerador-de-Cancelamento/assets/78499700/c56c83f7-6098-43a5-a9b3-26fd7c7ebfc4" alt="Layout no Celular" /> -->
-
+<img src="https://github.com/Talyslan/Dicee-Game/assets/78499700/52215d2b-4a4f-420c-96c4-d8152b48e229" alt="Layout no Computador" />
+<img src="https://github.com/Talyslan/Dicee-Game/assets/78499700/16f0a909-8e4e-4d93-9d6c-594c2c256eeb" alt="Layout no Celular" />
 
 ## 🗿 O Projeto
 
