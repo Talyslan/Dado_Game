@@ -9,10 +9,15 @@
     --borda: rgba(40, 40, 40, 0.713);
     --contracor: #302E35;
     --background: #100F11;
-    --letters: #e1e1e1;
-    --backBtn: #be0202;
-    --backBtn-hv: #920202;
-    --boxShadowBtn: rgba(146, 2, 2, 0.4);
+    --letters: #e0e0e0;
+    --boxShadowContracor: rgba(48, 46, 54, 0.4);
+    /* Buttons */
+    --rollBtn: #be0202;
+    --rollBtn-hv: #920202;
+    --boxShadowBtn-roll: rgba(146, 2, 2, 0.2);
+    --resetBtn: #6868689f;
+    --resetBtn-hv: #4c4c4c9f;
+    --boxShadowBtn-reset: rgb(15, 14, 16, 0.2);
     --winner: #60B478;
     --draw: #7862F8;
 }
