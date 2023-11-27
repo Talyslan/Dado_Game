@@ -1,6 +1,6 @@
 main span {
     font-size: 1.5rem;
-    color: #734ebd;
+    color: var(--letters);
 }
 
 img {
@@ -9,7 +9,8 @@ img {
 
 h1 {
     font-size: 4rem;
-    color: var(--blue);
+    margin-top: 20px;
+    color: var(--letters);
 }
 
 .container {
@@ -39,7 +40,7 @@ h1 {
 }
 
 .result {
-    background-color: rgb(32, 32, 32);
+    background-color: var(--contracor);
     width: 100%;
     padding: 30px;
     border-radius: 5px;
@@ -69,7 +70,7 @@ h1 {
 
 .result .answer {
     border: 4px solid var(--borda);
-    padding: 10px;
+    padding: 4px;
 }
 
 

@@ -5,7 +5,6 @@
 
     main span {
         font-size: 1rem;
-        color: #734ebd;
     }
 
     .result button {
@@ -20,10 +19,9 @@
 
     main span {
         font-size: .75rem;
-        color: #734ebd;
     }
 
     .result button {
-        font-size: .7rem;
+        font-size: .6rem;
     }
 }

@@ -6,13 +6,15 @@
 }
 
 :root {
-    --borda: rgba(40, 40, 40, 1);
-    --blue: #6320EE;
-    --backBtn: #c90303;
+    --borda: rgba(40, 40, 40, 0.713);
+    --contracor: #302E35;
+    --background: #100F11;
+    --letters: #e1e1e1;
+    --backBtn: #be0202;
     --backBtn-hv: #920202;
     --boxShadowBtn: rgba(146, 2, 2, 0.4);
-    --winner: rgb(23, 118, 206, 0.8);
-    --draw: rgba(230, 131, 39, 0.8);
+    --winner: #60B478;
+    --draw: #7862F8;
 }
 
 body,
@@ -21,8 +23,7 @@ a {
 }
 
 body {
-    background-color: #151516;
-    height: 100vh;
+    background-color: var(--background);
 }
 
 main,
