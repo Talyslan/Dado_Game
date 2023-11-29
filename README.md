@@ -10,7 +10,7 @@ Dice Game é um jogo baseado no sorteio de dois dados, o dado que tirar o maior 
 ## 📌 Como ver
 
 O projeto está hospedado no próprio GithubPages:
-[Gerador de Cancelamento](https://talyslan.github.io/Dicee-Game/)
+[Dice Game](https://talyslan.github.io/Dicee-Game/)
 
 
 ## Technologies Used
